@@ -7,24 +7,60 @@
     <title>Página principal</title>
 </head>
 <body>
-    <h1>HTML todo dia!</h1>
+    <h1 id="inicio">HTML todo dia!</h1>
     <hr>
-    <h2>HTML: Estrutura básica</h2>
+
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#net">Surgimento da Intenet</a></li>
+        <li><a href="#estrutura">HTML: Estrutura básica</a></li>
+        <li><a href="#tags">O que são TAGS?</a></li>
+        <li><a href="#atributos">Atributos e suas funções</a></li>
+        <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+        <li><a href="#links">Links</a></li>
+    </ul>
+<hr>
+    <h2 id="net">Surgimento da Intenet</h2>
+    <p>A internet foi criada em 1969, nos Estados Unidos. Chamada de Arpanet, tinha como função interligar laboratórios de pesquisa. Naquele ano, um professor da Universidade da Califórnia passou para um amigo em Stanford o primeiro e-mail da história. Essa rede pertencia ao Departamento de Defesa norte-americano.</p>
+
+    <h2 id="estrutura">HTML: Estrutura básica</h2>
     <p>Na estrutura básica do HTML contém posições bem definidas como cabeçalho (head) e o corpo (body) da página que dentro delas, especificamente no body podem haver "sub-estruturas" que são chamadas de tags semânticas que ajudam na composição do site.</p>
-    <h3>HEAD</h3>
+
+    <h4>HEAD</h4>
     <p>Basicamente é aonde são inseridas as tags de meta dados, podendo autorizar caracteres especiais, fixando links de CSS para manipular o estilo da sua página, selecionando o idioma nativo, definindo o título do site que ficará visível na aba superior do navegador e até mesmo inserindo um ícone nessa mesma aba com logotipos etc.</p>
-    <h3>BODY</h3>
-    <p></p>
-    <h2>O que são TAGS?</h2>
-    <p></p>
-    <h2>Atributos e suas funções</h2>
-    <p></p>
-    <h2>Textos</h2>
-    <p></p>
-    <h2>Listas Ordenadas e Não Ordenadas</h2>
-    <p></p>
-    <h2>Links</h2>
-    <p></p>
-    
+
+    <h4>BODY</h4>
+    <p>Já no corpo da página consta todo conteúdo que o usuário visualizará, como foi dito logo acima, podemos adicionar tags específicas para ajudar na montagem da estrutura do corpo utilizando as tags semânticas: header, nav, section, article entre outros.</p>
+
+    <h2 id="tags">O que são TAGS?</h2>
+    <p>Tags são usadas para marcar instruções, tendo uma marca de início e outra de fim para que o navegador possa renderizar uma página. Já outas, tem a peculiaridade de não possuir tag de fechamento como o próprio <i>hr</i> que cria uma linha na horizontal.</p>
+
+    <h2 id="atributos">Atributos e suas funções</h2>
+    <p>Atributos são palavras específicas que têm a finalidade de alterar o comportamento de uma tag, e ele é inserido dentro da abertura da tag. Com os atributos podemos manipular tags especificas, ou várias tags ao mesmo tempo sem precisa editar uma por uma.</p>
+
+    <h2 id="listas">Listas Ordenadas e Não Ordenadas</h2>
+    <p>A principal diferença que podemos perceber entre a lista ordenada e a lista não ordenada está na maneira com que os itens de cada lista são apresentados, a lista ordenada enumera os elementos, já a lista não ordenada colocamos marcadores antes de cada elemento.</p>
+    <p>Exemplo de lista ordenada:</p>
+    <ol>
+        <li>Objeto 01</li>
+        <li>Objeto 02</li>
+        <li>Objeto 03</li>
+        <li>Objeto 04</li>
+    </ol>
+    <p>Exemplo de lista não ordenada:</p>
+    <ul>
+        <li>Objeto 01</li>
+        <li>Objeto 02</li>
+        <li>Objeto 03</li>
+        <li>Objeto 04</li>
+    </ul>
+
+    <h2 id="links">Links</h2>
+    <p>Podem servir para diversas utilidades como por exemplo: redirecionar para páginas internas e externas, guiar assuntos dentros da própria página, acessar arquivos de estilos de CSS.</p>
+
+    <h6><a href="#inicio">Voltar ao início</a></h6>
+    <hr>
+    <p>Criado por <strong>Lops</strong></p>
+
 </body>
 </html>
