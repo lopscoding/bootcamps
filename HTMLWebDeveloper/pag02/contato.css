@@ -62,12 +62,14 @@ body {
     background-color: white;
     min-height: 300px;
     padding: 10px 80px;
-    text-align: justify;
+    text-align: center;
     border-radius: 0 0 5px 5px;
+}
+.content>ul {
+    list-style-type: none;
 }
 .footer {
     background-color: rgb(206, 206, 206);
-    min-height: 40px;
     min-width: 400px;
     text-align: center;
     position: relative;

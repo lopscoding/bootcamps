@@ -67,9 +67,21 @@ body {
 }
 .footer {
     background-color: rgb(206, 206, 206);
-    min-height: 40px;
     min-width: 400px;
     text-align: center;
     position: relative;
     bottom: -200px;
 }
+table {
+    border-collapse: collapse; /* mescla as bordas das células */
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #ddd;
+  }
