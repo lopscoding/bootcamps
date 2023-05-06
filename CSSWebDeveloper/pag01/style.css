@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 .banner{
     background-image: url(assets/images/banner.png);
     background-color: rgb(12, 26, 46);
@@ -19,5 +22,21 @@
     background-color: rgba(240, 248, 255, 0.007);
     border-color: #0088ff;
     border-radius: 5px;
+    padding: 0 50px;
+    border-width: 3px;
+}
+.insc{
+    font-size: 12px;
+    color: #0088ff;
+}
 
+main{
+    background-color:black;
+    color: aliceblue;
+    text-align: center;
+    font-family: monospace;
+}
+main h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: -50px;
 }
