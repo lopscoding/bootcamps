@@ -3,13 +3,27 @@ body, html {
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-ul { list-style: none; padding-left: 5px; }
-a { color:blue; text-decoration: none;}
+
+ul { 
+    list-style: none;
+     padding-left: 5px; 
+}
+
+a{ 
+    color:rgb(62, 62, 155); 
+    text-decoration: none;
+}
 .bar {
     background-color: #f9f9fb;
-    padding:15px;
+    padding: 2px;
     border-top: solid 1px #cdcdcd;
     border-bottom: solid 1px #cdcdcd;
+}
+.barra{
+    display: flex;
+}
+.barra>li{
+    padding: 10px;
 }
 .content {
     max-width: 1440px;
@@ -44,4 +58,8 @@ figcaption {
 a:hover{
     font-size: 18px;
     color: black;
+}
+.logo{
+    font-size: 20px;
+    text-align: center;
 }
