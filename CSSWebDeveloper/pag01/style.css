@@ -5,6 +5,7 @@ body{
     background-image: url(assets/images/banner.png);
     background-color: rgb(12, 26, 46);
     text-align: center;
+    background-attachment: fixed;
 }
 .banner-content>h1{
     text-align: center;
@@ -39,4 +40,7 @@ main{
 main h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: -50px;
+}
+.transform-world{
+    background-image: url(assets/images/woman-code.png);
 }
