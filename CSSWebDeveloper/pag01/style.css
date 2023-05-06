@@ -1,0 +1,23 @@
+.banner{
+    background-image: url(assets/images/banner.png);
+    background-color: rgb(12, 26, 46);
+    text-align: center;
+}
+.banner-content>h1{
+    text-align: center;
+    color: #176fbd;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.banner-content>p{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace; 
+}
+.banner-content>button{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #176fbd;
+    background-color: rgba(240, 248, 255, 0.007);
+    border-color: #0088ff;
+    border-radius: 5px;
+
+}
