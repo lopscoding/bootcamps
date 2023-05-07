@@ -1,10 +1,12 @@
 .container{
+  
 
 }
 
 .perfil{
     width: 40px;
     border-radius: 50px;
+    margin-left: 10px;
 }
 
 .nav1{
@@ -23,9 +25,14 @@
     margin-top: 8px;
 }
 
-.iconesq{
+.icone-esquerda{
     float: left;
-    margin-left: 250px;
+    margin-left: 240px;
     margin-top: 8px;
 }
+
+.icone-esquerda>img{
+    margin-left: 5px;
+}
+
 
