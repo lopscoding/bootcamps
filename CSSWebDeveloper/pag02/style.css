@@ -1,15 +1,14 @@
 .container{
     display: flex;
   flex-direction: column; 
-  align-items: ;
 }
 
 .item{
     flex:1; 
 }
+
 .item>aside{
     display: inline-block;
-  
 }
 
 .perfil{
@@ -46,6 +45,7 @@
 }
 
 .imgvideo{ 
+    padding-top: 25px;
     width: 650px;
     margin-left: 50px;
 
@@ -53,6 +53,10 @@
 
 .titulo-video{
     margin-left: 50px;
+}
+
+.titulo-videop{
+    font-weight: bold;
 }
 
 .perfil-canal{
